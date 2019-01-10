@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('docker');
 });
+
+//Route::get('/', 'DockerController@home')->name('home');
+//Route::get('/new','DockerController@index')->name('new');
+
